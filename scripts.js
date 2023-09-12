@@ -29,7 +29,7 @@ const playTheGame = (human, machine) => {
 
     if (human === machine) {
 
-        result.innerHTML = "Deu empate!"
+        result.innerHTML = "Deu empate! 	&#128530;"
 
     } else if (
         (human === 'paper' && machine === 'rock') ||
@@ -38,13 +38,14 @@ const playTheGame = (human, machine) => {
     ) {
         humanScoreNumber++
         humanScore.innerHTML = humanScoreNumber
-        result.innerHTML = "Você ganhou!"
+        result.innerHTML = "Você ganhou! 	&#128515;"
 
     } else {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
-        result.innerHTML = "Você perdeu!"
+        result.innerHTML = "Você perdeu! 	&#128557; "
 
     }
 
 }
+
