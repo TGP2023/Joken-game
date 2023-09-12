@@ -13,4 +13,4 @@
   <p>- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
   <br>
   <br>
-  <img src="./assets/Brown Modern Visit Our Website Video Instagram Post.png">
+  <img src="./https://github.com/TGP2023/Joken-game/blob/master/assets/joken-p%C3%B4.png?raw=true">
