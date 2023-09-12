@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url("https://source.unsplash.com/1920x1080/?landscape");
+    background-size: cover;
+    /*serve para ajustar a imagem na tela*/
+
+    display: flex;
+    /*serve para criar um modelo de layout flexível e permit organizar os elementos de forma eficiente e responsiva, simplifica o alinhamento e distribuição dos elementos*/
+    justify-content: center;
+    /*alinha a imagem na horizontal*/
+    align-items: center;
+    /*alinha na vertical*/
+    min-height: 100vh;
+    /*É usado para definir uma altura mínima*/
+
+}
+
+.container {
+    padding: 20px;
+    background-color: #87cfc9a1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /*alinha os elementos um emaixo do outro (coluna)*/
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.buttons {
+    margin: 30px 0;
+    /*cima e baixo 30px e dos lados 0*/
+    display: flex;
+    gap: 40px;
+    /*ajuda a distanciar os itens, mas deve se aplicar antes o DISPLAY FLEX*/
+
+
+}
+
+button:hover {
+    opacity: 0.7;
+
+}
+
+#rock {
+    background-color: #abb478;
+
+}
+
+#paper {
+    background-color: #2f85b8;
+
+}
+
+#scissors {
+    background-color: #b62e40;
+
+}
+
+p {
+    font-weight: bold;
+    /*para deixar em negrito*/
+    margin-bottom: 10px;
+}
+
+.your-score span { /*procura a class ".your-score" e dentro dessa classe estilize o "span" mudando a cor somente do número*/
+color: rgb(13, 61, 116)
+
+}
+
+.machine-score span{
+
+    color: rgb(209, 71, 36);
+
+
+
+}
