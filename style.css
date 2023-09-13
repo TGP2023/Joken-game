@@ -29,6 +29,7 @@ body {
     flex-direction: column; /*alinha os elementos um emaixo do outro (coluna)*/
     align-items: center;
     justify-content: center;
+    font-size: 25px;
 
 }
 
@@ -75,7 +76,7 @@ button:hover {
 p {
     font-weight: bold;
     /*para deixar em negrito*/
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .your-score span { /*procura a class ".your-score" e dentro dessa classe estilize o "span" mudando a cor somente do número*/
@@ -89,4 +90,23 @@ color: rgb(13, 61, 116)
 
 
 
+}
+
+@media screen and (max-width: 900px){
+
+.container {
+
+    height: 460px;
+    padding: 10px;
+    background-color: #87cfc9a1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+    
 }
